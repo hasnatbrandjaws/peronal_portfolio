@@ -6,16 +6,9 @@ export default function Index() {
 
   return (
     <>
-      <section className="w-full h-screen bg-[#def31c] flex justify-center items-center">
+      <section className="w-full h-screen bg-[#def31c] flex items-center">
         <h2
-          className="font-bold"
-          onMouseEnter={textEnter}
-          onMouseLeave={textLeave}
-        >
-          Hello World
-        </h2>
-        <h2
-          className="font-bold"
+          className="w-full font-bold hover:text-red-500 "
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
         >
