@@ -52,7 +52,6 @@ const CursorProvider = ({ children }) => {
   );
 };
 
-
 const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
     const lenis = new Lenis({
@@ -76,5 +75,3 @@ const MyApp = ({ Component, pageProps }) => {
 };
 
 export default MyApp;
-
-
